@@ -39,6 +39,6 @@ public class Fibonacci {
     public static void main(String[] args) {
         Fibonacci fibonacci = new Fibonacci();
         System.out.println(fibonacci.fibonacciIterative(5));
-        System.out.println(fibonacci.fibonacciRecursive(5));
+        System.out.println(fibonacci.fibonacciRecursive(6));
     }
 }
