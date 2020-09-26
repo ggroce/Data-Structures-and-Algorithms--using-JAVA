@@ -14,7 +14,7 @@ public class Fibonacci2 {
     public int fiboRecursive(int num) {
         System.out.println("num is: " + num);
         if (num < 2) {
-            System.out.println("inside if");
+            //System.out.println("inside if");
             if (num == 1) {
                 counter++;
                 System.out.println("incrementing counter: " + counter);
@@ -26,6 +26,6 @@ public class Fibonacci2 {
 
     public static void main(String[] args) {
         Fibonacci2 fibonacci = new Fibonacci2();
-        System.out.println(fibonacci.fiboRecursive(4));
+        System.out.println(fibonacci.fiboRecursive(5));
     }
 }
